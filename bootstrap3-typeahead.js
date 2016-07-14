@@ -57,6 +57,8 @@
     this.render = this.options.render || this.render;
     this.updater = this.options.updater || this.updater;
     this.displayText = this.options.displayText || this.displayText;
+    this.next = this.options.next || this.next,
+    this.prev = this.options.prev || this.prev,
     this.source = this.options.source;
     this.delay = this.options.delay;
     this.$menu = $(this.options.menu);
